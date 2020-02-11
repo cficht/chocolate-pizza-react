@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
 import Description from './Description.js';
@@ -14,7 +13,7 @@ function App() {
 
       <Description print={"print-icon.png"} chocopizza={"choco-pizza.png"}/>
 
-      <Recipe />
+      <Recipe background={"list-bg.png"}/>
 
       <Author van={"van-pic.png"}/>
 

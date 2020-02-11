@@ -6,21 +6,27 @@ export default class Header extends Component {
         return (
             <header>
                 <div>
-                    <div class="float-left">
-                        <img src={this.props.logo} />
-                        <h1>Delicious</h1>
-                        <h3>The best food blog on the web</h3>
+                    <div className="float-left">
+                        <div>
+                            <img src={this.props.logo} alt="" />
+                        </div>
+                        <div>
+                            <h1>Delicious</h1>
+                            <h3>The best food blog on the web</h3>
+                        </div>
                     </div>
-                    <nav class="float-right">
-                        <img src={this.props.fb} />
-                        <img src={this.props.twit} />
-                        <img src={this.props.gp} />
-                        <img src={this.props.insta} />
-                        <img src={this.props.flic} />
-                        <img src={this.props.pint} />
-                        <img src={this.props.rss} id="rss" />
-                        <img src={this.props.mail} />
-                    </nav>
+                    <div className="float-right">
+                        <nav>
+                            <img src={this.props.fb} alt="" />
+                            <img src={this.props.twit} alt="" />
+                            <img src={this.props.gp} alt="" />
+                            <img src={this.props.insta} alt="" />
+                            <img src={this.props.flic} alt="" />
+                            <img src={this.props.pint} alt="" />
+                            <img src={this.props.rss} id="rss" alt="" />
+                            <img src={this.props.mail} alt="" />
+                        </nav>
+                    </div>
                     <div id="texture-box">
                     </div>
                 </div>

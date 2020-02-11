@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -42,7 +42,7 @@
 }
 
 body {
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -57,18 +57,23 @@ header {
   float: left;
   clear: left;
   display: flex;
-  justify-content: center;
+  /* justify-content: flex-start; */
   align-items: center;
-  align-content: space-between;
+  /* align-content: space-between; */
+  width: 50%;
+  height: 100px;
 }
 
 .float-right {
   float: right;
   clear: right;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  width: 50%;
+  height: 100px;
 }
 
 #logo-text {
@@ -83,8 +88,20 @@ header {
   top: -10px; 
 }
 
+h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 h2 {
   font-family: 'Oswald', sans-serif;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+h3 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 #delicious-subtitle {
@@ -99,6 +116,8 @@ h2 {
 h4 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .socials {
@@ -112,14 +131,26 @@ h4 {
 }
 
 #texture-box {
+  clear: left;
   height: 13px;
-  width: 960px;
-  /* background-image: url('img/hr-img.png'); */
+  width: 900px;
+  background-image: url('/hr-img.png');
 }
 
 #article-title {
   overflow: auto;
   align-items: center;
+}
+
+#article-name {
+  float: left;
+  clear: left;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  align-items: center;
+  /* align-content: space-between; */
+  width: 50%;
+  height: 100px;
 }
 
 #food-title {
@@ -161,7 +192,14 @@ h4 {
 }
 
 #recipe {
-  /* background-image: url('img/list-bg.png'); */
+  background-image: url('/list-bg.png');
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 40px;
+  height: 300px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;;
 }
 
 ul {
@@ -169,7 +207,7 @@ ul {
 }
 
 li {
-  list-style-type: none;
+  list-style-type: square;
 }
 
 button {
@@ -178,4 +216,8 @@ button {
   color: white;
   padding: 10px 25px;
   font-weight: 200;
+}
+
+footer {
+  text-align: center;
 }
