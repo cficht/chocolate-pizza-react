@@ -17,7 +17,7 @@ export default class Recipe extends Component {
                 <div>
                     <ul>
                         <li>1 1/2 cups heavy cream</li>
-                        <li>1/3 granulated sugar (strikethrough)</li>
+                        <li>1/3 granulated sugar</li>
                         <li>2 egg yolks</li>
                         <li>1 lemon, juiced</li>
                         <li>2 tbsp butter</li>

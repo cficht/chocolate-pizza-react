@@ -11,7 +11,7 @@ export default class Footer extends Component {
                     <span className="breakline"></span>
                 </div>
                 <div id="copyright">
-                    <p>Delicous &copy; . 2013 All Rights Reserved.</p>
+                    <p>Delicous &copy; 2013 All Rights Reserved.</p>
                     <p>Proudly published with Ghost.</p>
                 </div>
             </footer>

@@ -10,7 +10,7 @@ export default class Header extends Component {
                         <div>
                             <img src={this.props.logo} alt="" />
                         </div>
-                        <div>
+                        <div id="logo-text">
                             <h1>Delicious</h1>
                             <h3>The best food blog on the web</h3>
                         </div>
